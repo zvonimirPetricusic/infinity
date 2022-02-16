@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css2?family=Varela+Round&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url(https://fonts.googleapis.com/css2?family=Spinnaker&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400);
+body{
+    background-color: #D9003C;
+    background-image: url('../../img/login_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#shade{
+    z-index: 0;
+    background: #D9003C;
+    opacity: 50%;
+    border: 0px none transparent;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    -webkit-tap-highlight-color: transparent;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease 0s;
+    visibility: visible;
+    border: none !important;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+    
+}
+nav{
+    display: none !important;
+}
+
+/**
+* GRID
+*/
+
+#mainContainer{
+    justify-items: center;
+    width: 100%;
+    position: absolute;
+    color: white;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+#leftContentContainer{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+#leftContentContainer #heading{
+    padding-bottom: 100px;
+}
+
+#leftContentContainer h1{
+    text-shadow: 2px 2px #333;
+    text-align: center;
+    font-size: 144px;
+    font-family: "Covered By Your Grace";
+}
+
+#leftContentContainer #paragraph{
+    text-shadow: 2px 2px #333;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Sen";
+}
+
+#rightContentContainer{
+    padding-top: 100px;
+}
+
+#formContainer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: auto;
+    height: auto;
+    /*background-color: #333;*/
+    
+    /*opacity: 40%;*/
+    border-radius: 25px;
+    
+}
+
+#formContainer input{
+    width: 400px;
+}
+
+#formContainer h3{
+    text-shadow: 2px 2px #333;
+    font-size: 40px;
+    font-family: "Sen";
+}
+
+#formContainer a{
+    color: white;
+    opacity: 80%;
+    font-family: "Sen";
+}
+
+#formContainer a:hover{
+    color: white;
+    opacity: 100%;
+    font-family: "Sen";
+}
+
+
+
+/* #formContainer:hover{
+    box-shadow: 1px 1px 1px 1px #333;
+    opacity: 90%;
+    width: 550px;
+    transition: 0.7s ease-in-out;
+} */
