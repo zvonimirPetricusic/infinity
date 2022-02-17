@@ -25,7 +25,7 @@ class LoginController extends Controller
     protected function validateLogin(Request $request)
     {
         $subdomain = explode('.', $_SERVER['HTTP_HOST'])[0];
-        $settings = DB::select('select id as company_id from settings where subdomain = :subdomain limit 1',  ['subdomain' => $subdomain]);
+        $settings = DB::select('SELECT id AS company_id FROM settings WHERE subdomain = :subdomain LIMIT 1',  ['subdomain' => $subdomain]);
         $company_id = false;
         foreach($settings as $res){
             $company_id = $res->company_id;
