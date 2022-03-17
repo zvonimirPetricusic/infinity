@@ -13,9 +13,7 @@
 <body>
     @include('structure.adminStructure')
     <div id="subHeaderContainer">
-        <h3><img src="../../img/dashboardBlack.png" class="icon" alt="Dashboard icon"> &nbsp; Dashboard</h3>
+        <h3><img src="../../img/settingBlack.png" class="icon" alt="Settings icon"> &nbsp; Settings</h3>
     </div>
-
 </body>
-
 @endsection
