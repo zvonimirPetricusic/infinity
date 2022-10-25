@@ -1,0 +1,5 @@
+{
+  "tag": "countUsers",
+  "predlosci": ["Koliko sustav ima korisnika?", "Broj korisnika", "Broj aktivnih korisnika"],
+  "odgovori": ["Broj korisnika","Broj aktivnih korisnika je", "Aktivni korisnici"]
+}

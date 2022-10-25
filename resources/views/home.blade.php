@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
 <link href="{{ asset('css/nav/aside.css') }}" rel="stylesheet">
+<script type="application/javascript" src="{{ asset('js/similarity.min.js') }}"></script> 
 
 
 <body>

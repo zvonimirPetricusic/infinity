@@ -1,0 +1,90 @@
+{
+  "rijecnik": [
+    {
+      "oznaka": "greeting",
+      "predlosci": [
+        "Bok",
+        "Pozdrav",
+        "Kako si",
+        "Dobar dan"
+      ],
+      "odgovori": [
+        "Bok :-)",
+        "Pozdrav :-)",
+        "Kako mogu pomoći?",
+        "Dobar dan :)"
+      ]
+    },
+    {
+      "oznaka": "goodbye",
+      "predlosci": ["Doviđenja", "Zdravo", "Do nekog drugog puta"],
+      "odgovori": ["Vidimo se :)", "Želim ti ugodan dan", "Doviđenja"]
+    },
+    {
+      "oznaka": "companyContact",
+      "predlosci": ["Kontakt", "Koji je vaš kontakt broj?", "Koja je vaša email adresa"],
+      "odgovori": [
+        "Kontakt podaci jesu sljedeći",
+        "Dostupni smo na",
+        "Možete nas kontaktirati na"
+      ]
+    },
+    {
+      "oznaka": "countUsers",
+      "predlosci": ["Koliko sustav ima korisnika?", "Broj korisnika", "Broj aktivnih korisnika"],
+      "odgovori": [
+        "Broj korisnika",
+        "Broj aktivnih korisnika je",
+        "Aktivni korisnici"
+      ]
+    },
+    {
+      "oznaka": "createUser",
+      "predlosci": ["Novi korisnik", "Kreiraj novog korisnika", "Registracija"],
+      "odgovori": [
+        "Korisnik je kreiran",
+        "Uspijeh",
+        "Profil je uspješno kreiran"
+      ]
+    },
+    {
+      "oznaka": "price",
+      "predlosci": ["Koja je cijena odijela sa IDom 16", "Cijena", "Koliko košta", "Cijena", "ID"],
+      "odgovori": [
+        "Cijena artikla sa tim IDom iznosi",
+        "Cijena je",
+        "Artikl košta"
+      ]
+    },
+    {
+      "oznaka": "color",
+      "predlosci": ["Koje su boje dostupne", "Boje odijela", "Crvena, Crna, Bijela, Plava", "Da li je dostupna boja"],
+      "odgovori": [
+        "Boje koje su dostupne su sljedeće",
+        "Molimo odaberite željenu boju",
+        "koja boja vam se najviše sviđa"
+      ]
+    },
+    {
+      "oznaka": "selectedColor",
+      "predlosci": ["Odabrana je boja sa kodom"],
+      "odgovori": [
+        "Artikli dostupni u tim bojama",
+        "U tim bojama imamo sljedeće artikle",
+        "Možda Vam se nešto od ovoga sviđa"
+      ]
+    },
+    {
+      "oznaka": "reservation",
+      "predlosci": ["Rezervirati artikl sa IDom", "Volio bih obaviti rezervaciju", "Mogu li online naručiti", "Je li moguća rezervacija"],
+      "odgovori": [
+        "Uspješno rezervirano",
+        "Odabrani artikl je rezerviran sa Vašim podacima",
+        "Artikl je rezerviran! Vidimo se :)"
+      ]
+    }
+  ]
+}
+
+
+

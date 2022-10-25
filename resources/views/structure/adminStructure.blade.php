@@ -1,22 +1,26 @@
 @section('adminStructure')
+
+
 <div id="asideContainer">
         <div id="logoContainer">
             <h1>Logo</h1>
         </div>
         <div id="navContainer">
-            <div class="navItem  active">
+            <div class="navItem  active" id="navDashboard">
                 <a href="{{ url('/home') }}" class="navLink"><img src="../../img/dashboard.png" class="icon" alt="Dashboard icon">&nbsp; Dashboard</a>
             </div>
-            <div class="navItem">
+            <div class="navItem" id="navItem">
+                <a href="{{ url('/items') }}" class="navLink"><img src="../../img/dashboard.png" class="icon" alt="Dashboard icon"> &nbsp; Items</a>
+            </div>
+            <div class="navItem" id="navCategories">
+                <a href="{{ url('/categories') }}" class="navLink"><img src="../../img/dashboard.png" class="icon" alt="Dashboard icon">&nbsp; Categories</a>
+            </div>
+            <div class="navItem" id="navSubcategories">
+                <a href="{{ url('/subcategories') }}" class="navLink"><img src="../../img/dashboard.png" class="icon" alt="Dashboard icon">&nbsp;Subcategories</a>
+            </div>
+            <div class="navItem" id="navSettings">
                 <a href="{{ url('/settings') }}" class="navLink"><img src="../../img/setting.png" class="icon" alt="Dashboard icon">&nbsp; Settings</a>
-            </div>
-            <div class="navItem">
-                <a href="" class="navLink"><img src="../../img/dashboard.png" class="icon" alt="Dashboard icon">&nbsp; Dashboard</a>
-            </div>
-            <div class="navItem">
-                <a href="" class="navLink"><img src="../../img/dashboard.png" class="icon" alt="Dashboard icon"> &nbsp; Settings</a>
-            </div>
-            
+            </div> 
         </div>
         <div id="btnContainer">
 
@@ -38,6 +42,9 @@
                     <img src="../../img/logout.png" title="Logout" class="actionIcon" alt="Dashboard icon">
                 </a>
             </div>
-        </div>  
+        </div>
     </div>
+</div>
+
+
 @show

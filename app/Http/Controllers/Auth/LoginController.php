@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-use App\Models\Settings;
+use App\Models\Company;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 
@@ -25,7 +25,7 @@ class LoginController extends Controller
     protected function validateLogin(Request $request)
     {
         $subdomain = explode('.', $_SERVER['HTTP_HOST'])[0];
-        $settings = DB::select('SELECT id AS company_id FROM settings WHERE subdomain = :subdomain LIMIT 1',  ['subdomain' => $subdomain]);
+        $settings = DB::select('SELECT id AS company_id FROM company WHERE subdomain = :subdomain LIMIT 1',  ['subdomain' => $subdomain]);
         $company_id = false;
         foreach($settings as $res){
             $company_id = $res->company_id;
@@ -56,7 +56,7 @@ class LoginController extends Controller
     public function __construct()
     {
         $subdomain = explode('.', $_SERVER['HTTP_HOST'])[0];
-        $settings = DB::select('select * from settings where subdomain = :subdomain',  ['subdomain' => $subdomain]);
+        $settings = DB::select('select * from company where subdomain = :subdomain',  ['subdomain' => $subdomain]);
 
         if(empty($settings)){
             header("Location: https://google.com");

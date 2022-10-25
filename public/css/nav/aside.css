@@ -23,7 +23,7 @@ main{
 #asideContainer{
     background: #FE2D67;
     border-right: 2px white solid;
-    position: absolute;
+    position: fixed;
     padding: 0;
     width: 300px;
     height: 100%;
